@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+#container {
+  border: 5px solid black;
+  background-image: url(https://burst.shopifycdn.com/photos/sands-of-time.jpg?width=1200&format=pjpg&exif=1&iptc=1);
+  height: 98vh;
+  /* background-repeat: no-repeat; */
+}
+#calculator-body {
+  /* border: 5px solid red; */
+  margin: 80px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.875);
+}
+#header {
+  text-align: center;
+  font-weight: bolder;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 2px;
+  font-style: italic;
+}
+#header:hover {
+  color: red;
+  font-style: italic;
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#btn {
+  border-radius: 5px;
+  width: 250px;
+  font-style: italic;
+  background-color: rgb(0, 255, 123);
+  color: black;
+  border: 0;
+  margin: 20px 0px 10px 0px;
+  font-weight: bolder;
+  padding: 5px;
+  height: 30px;
+}
+#btn:hover {
+  background-color: brown;
+  color: wheat;
+  font-size: small;
+  width: 250px;
+  /* margin-left: 10px; */
+}
+.values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: bolder;
+}
+input {
+  width: 300px;
+  font-size: xx-large;
+}
+label {
+  font-size: xx-large;
+}
+#result {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding: 10px;
+}
